@@ -1,0 +1,237 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(241, 239, 236);
+    height: 100vh;
+    background-color: #404040;
+}
+nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    font-size: 1.3rem;
+    color: white;
+    background-color: black; 
+}
+#logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+#logo img{
+    padding:0px;
+    margin: 0px;
+    height: 50px;
+    width: auto;
+}
+#logo a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    list-style: none;
+    margin-right: 5px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+#section2{
+    text-align: center;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+.song-list{
+    color: white;
+    font-size: 1.2rem;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    margin: 20px 0px;
+    border-radius: 13px;
+    background: linear-gradient(315deg, #323232, #3c3c3c);
+    box-shadow:  -29px -29px 34px #303030,
+                 29px 29px 34px #404040;
+}
+#song-banner img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+#time-stamp {
+   display: flex;
+   align-items: center;
+}
+/* .song-item-play{
+    height: 57px;
+} */
+.song-item-play{
+    opacity: 1;
+    color: white;
+    padding: 0px 5px;
+    opacity: 0;
+}
+
+
+
+
+
+/* #section3{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    width: 80%; 
+    margin: 0px 15px;
+    border-radius: 53px;
+    background: linear-gradient(315deg, #323232, #3c3c3c);
+    box-shadow:  -29px -29px 34px #303030,
+                 29px 29px 34px #404040;
+}
+/* #section3 div{
+    display: flex;
+    flex-direction: column;
+} */
+/* #span1{
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+#music-player{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+#music-player-animation{
+    width: 350px;
+}
+#music-content{
+    width: 80%;
+    text-align: center;
+}
+#section3-div2{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+#current-music-banner{
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    position: absolute;
+}
+#progress-bar{
+    width: 100%;
+    height: 3px;
+    padding: 15px 0px;
+}
+#masrter-play-controlller{
+    text-align: center;
+}
+#masrter-play-controlller i{
+    padding: 20px;
+    size: 10px;
+}
+#music-player-animation{
+    opacity: 0;
+}
+#song-time{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0rem;
+} */ 
+
+
+#section3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+#music-player-box{
+    width: 80%;
+    border-radius: 33px;
+    background: linear-gradient(315deg, #c1bebe, #9a9797);
+    position: relative;
+    bottom: 0px;
+    display: flex; 
+    justify-content: space-between;
+    padding: 0px 10px; 
+    height: 115px;
+}
+#music-player-box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#music-content{
+    text-align: center;
+}
+#music-player{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+#current-music-banner{
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    position: absolute;
+}
+#music-player-animation{
+    width: 320px;
+    opacity: 0;
+}
+#music-player-box2{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-evenly;
+}
+#song-time{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+   
+}
+#progress-bar{
+    width: 90%;
+}
+#master-play-controller{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 5px;
+    height: 30px;
+}
+#master-play-controller i{
+    font-size: 30px;
+}
